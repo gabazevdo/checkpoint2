@@ -81,11 +81,6 @@ body {
   left: 0;
 
   background-color: var(--secundary);
-
-  /* background: var(--primary-Opacity);
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
-  border-bottom: var(--primary-Opacity); */
 }
 
 .header h2 {
@@ -95,12 +90,12 @@ body {
 /* botão mode-light */
 
 .label {
-  background-color: var(--secundary);
+  background-color: var(--);
   width: 51px;
   height: 26px;
   padding: 6px;
   border-radius: 50px;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--color-text-secundary);
   position: relative;
   display: flex;
   transition: background 0.2s linear;
@@ -109,7 +104,7 @@ body {
 }
 
 .ball {
-  background-color: var(--primary);
+  background-color: var(--color-text-secundary);
   height: 22px;
   width: 22px;
   border-radius: 50%;
@@ -130,9 +125,13 @@ body {
 
 .fa-sun {
   color: #ffc400;
+  font-size: 1.6rem;
+
 }
 .fa-moon {
-  color: #bdbdbd;
+  color: #acacac;
+  font-size: 1.6rem;
+
 }
 
 .banner {
@@ -532,23 +531,20 @@ img {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.8);
-
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  transition: 0.5s;
-
-  transition-timing-function: ease-in;
 }
 
 #segp{
   height: max-content;
-  font-size:16px;
+  font-size:1.8rem;
+  color: var(--color-text-primary);
+
 }
 
 .segh1{
-  font-size: 24px;
+  font-size: 3rem;
+  color: var(--color-text-primary);
+  margin: 40px 0;
+
 }
 
 .photo{
