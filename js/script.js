@@ -20,21 +20,12 @@ function openModal(mn) {
   //Ao clicar no botão, o body ficará sem a barra de rolagem:
   document.body.style.overflow = "hidden";
 
-
   // Ao clicar fora do modal ele fica com display: none
   window.addEventListener("click", function (e) {
     if (e.target == modal) {
       modal.style.display = "none";
       document.body.style.overflow = "auto";
     }
-  });
-
-
-  // Quando clica em (x) o modal fica com display: none
-  span.addEventListener("click", function () {
-    modal.style.display = "none";
-    document.body.style.overflow = "auto";
-
   });
 
   // Quando clicar a tecla 'esc' do teclado fecha o modal
@@ -44,6 +35,14 @@ function openModal(mn) {
       document.body.style.overflow = "auto";
     }
   });
+}
+
+function closeModal(mn) {
+  let modal = document.getElementById(mn);
+  if (typeof modal == "undefined" || modal === null) return;
+  modal.style.display = "none";
+  //Ao clicar no botão, o body ficará sem a barra de rolagem:
+  document.body.style.overflow = "auto";
 }
 
 // Inspirações para o modal:
