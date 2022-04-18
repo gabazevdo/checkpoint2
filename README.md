@@ -1,7 +1,13 @@
 <h1 align='center'> Checkpoint II</h1>
 <h5 align="center">Atividade referente ao segundo checkpoint da disciplina de Introdução a Informática</h5>
 
-<nav> <a href="#objetivo">Objetivo</a> |  <a href="#integrantes">Intergantes</a></nav>
+---
+
+<div align="center">
+<h3>
+<nav> <a href="#objetivo">Objetivo</a>  |  <a href="#noAr"> GitPages </a>  |  <a href="#integrantes">Integrantes</a>  |  <a href="#agradecimento"> Agradecimentos </a></nav>
+</h3>
+</div>
 
 ---
 
@@ -25,13 +31,38 @@
 O formato da página é livre, porém será disponibilizado um template para auxílio do trabalho.
 4. A formatação da página NÃO será determinante para a nota. O importante é a compreensão da matéria, a relação com a notícia e o uso do GitHub.
 5. Todos os integrantes do grupo devem estar como colaboradores e realizarem pelo menos um commit com uma alteração relevante (adição de um texto, correção de alguma característica da página ou inserção da imagem em cada um dos tópicos).
-        <details>
+      
+      <details>
         <summary>Colaboradores </summary>
        
 	![tse](https://user-images.githubusercontent.com/16105546/163696298-6e4e66a9-9f36-40ef-9fec-dec58a1a693a.png)
 
+
+</details>
+
+<h2 id='noAr' align='center'> Veja o projeto no ar! </h2>
+
+<a href="https://gabazevdo.github.io/checkpoint2/"> 
 	
-        </details>
+![Captura de tela de 2022-04-18 13-12-08](https://user-images.githubusercontent.com/16105546/163842053-3399d8ec-0e42-41a7-a825-3f9f0902c3a3.png)
+	
+</a>
+
+
+<h2> Tecnologias </h2>
+
+- HTML
+	- Construção do site
+- CSS
+	- Estilização
+- Javascript
+	- Botão para os themes (dark/light) e para abir os modais.
+
+
+<h2> Contrução </h2>
+
+
+<p> O site foi construído com base no <a href="https://github.com/oggvaldo/checkpoint2"> layout disponibilizado </a> pelo professor Anayran. </p>
 
 ---
 
@@ -86,4 +117,36 @@ O formato da página é livre, porém será disponibilizado um template para aux
         </sub>
       </a><br>
     </td>
+</table>
+
+<h2 id="agradecimento"> Agradecimentos </h2>
+
+<p> Tivemos a honra e o prazer de nesse bimestre termos um professor, amigo e parceiro. </p>
+<p> Fomos agraciados pela Digital House, e toda a turma 2 do CTD agradece e deseja muita sorte em sua jornada! </p>
+<p> Obrigado por ter dividido seu tempo conosco. Aprendemos, conversamos e damos muitas risadas! E tudo com muito respeito.</p>
+<p> Agradecimentos ao tutor Bruno por estar ali conosco todos os dias sendo o braço direito do professor! </p>
+ 
+ <table>
+	<tr align="center">
+	<td>Professor</td>
+	<td>Tutor</td>
+	</tr>
+<tr>
+   <td align="center">
+      <a href="https://github.com/oggvaldo">
+        <img src="https://avatars.githubusercontent.com/u/4406371?v=4" width="100px;" alt="Foto do Anayran no GitHub"/><br>
+        <sub>
+          <b>Anayran Azevedo</b>
+        </sub>
+      </a><br>
+    </td>
+	<td align="center">
+      <a href="https://github.com/">
+        <img src="https://avatars.githubusercontent.com/u/9919?v=4" width="100px;" alt="Foto do Bruno no GitHub"/><br>
+        <sub>
+          <b>Bruno Rocha</b>
+        </sub>
+      </a><br>
+    </td>
+	</tr>
 </table>
